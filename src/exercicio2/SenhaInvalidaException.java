@@ -1,9 +1,9 @@
-package exercicio1;
+package exercicio2;
 
-public class ErroDivisorException extends RuntimeException {
+public class SenhaInvalidaException extends RuntimeException {
     private String mensagem;
 
-    public ErroDivisorException(String mensagem) {
+    public SenhaInvalidaException(String mensagem) {
         this.mensagem = mensagem;
     }
 
